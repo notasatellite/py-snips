@@ -1,2 +1,2 @@
 # py-snips
-Python snippets for MVP work
+Python snippet library for MVP work.
