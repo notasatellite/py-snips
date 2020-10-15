@@ -9,8 +9,8 @@ from PIL import Image
 from objc_util import ObjCClass, nsurl, ns
 
 # Configuration (change URL and filename if you want to use a different model):
-MODEL_URL = 'https://docs-assets.developer.apple.com/coreml/models/MobileNet.mlmodel'
-MODEL_FILENAME = 'mobilenet.mlmodel'
+MODEL_URL = 'https://ml-assets.apple.com/coreml/models/Image/ImageClassification/MobileNetV2/MobileNetV2.mlmodel'
+MODEL_FILENAME = 'MobileNetV2.mlmodel'
 
 # Use a local path for caching the model file (no need to sync this with iCloud):
 MODEL_PATH = os.path.join(os.path.expanduser('~/Documents'), MODEL_FILENAME)
